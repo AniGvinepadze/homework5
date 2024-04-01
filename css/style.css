@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --header-mainsize: 16px;
+  --header-mainweight: 500;
+}
+body{
+    background-color: #020202;
+}
+.main-container {
+  width: 1440px;
+  height: 3235px;
+  font-family: "Montserrat", sans-serif;
+
+  color: white;
+}
+/* header start*/
+header {
+  width: 1440px;
+  height: 112px;
+  display: flex;
+}
+.logoimg {
+  width: 53px;
+  height: 54px;
+  margin: 29px 17px 29px 140px;
+}
+
+.navbar {
+  display: flex;
+}
+.car0 {
+  width: 44px;
+  height: 24px;
+  font-size: var(--header-mainsize);
+  font-weight: var(--header-mainweight);
+  margin: 44px 24px 44px 47px;
+}
+.navbar img {
+  width: 24px;
+  height: 24px;
+  margin: 42px 0px 0px -25px;
+}
+
+.card1 {
+  width: 44px;
+  height: 24px;
+  font-size: var(--header-mainsize);
+  font-weight: var(--header-mainweight);
+  margin: 44px 0px 44px 24px;
+}
+.card2 {
+  width: 44px;
+  height: 24px;
+  font-size: var(--header-mainsize);
+  font-weight: var(--header-mainweight);
+  margin: 44px 522px 44px 24px;
+}
+
+.headersearch button {
+  width: 193px;
+  height: 52px;
+  font-size: 20px;
+  font-weight: var(--header-mainweight);
+  border: 3px solid black;
+  background-color: #fcaf17;
+  border-radius: 8px;
+  margin: 32px 56px 0px 0px;
+}
+.imgsearch {
+  width: 48px;
+  height: 48px;
+  margin: 100px 24px 0px 0px;
+}
+/*header end*/
+
+.mainimg {
+  height: 796px;
+  margin-bottom: 80px;
+  background-color: #020202;
+}
+
+.jogos {
+  display: flex;
+ 
+}
+.jogos h3 {
+  font-weight: 800;
+  font-size: 48px;
+  margin: 0px 226px 40px 140px;
+}
+.btnone {
+  width: 70px;
+  height: 32px;
+  margin-right: 16px;
+  font-weight: var(--header-mainweight);
+  font-size: 16px;
+  border: 5px solid #606060;
+  border-radius: 100px;
+  background-color: #606060;
+  color: #f6f6f6;
+}
+.btntwo {
+  width: 70px;
+  height: 32px;
+  margin-right: 16px;
+  font-weight: var(--header-mainweight);
+  font-size: 16px;
+  border: 5px solid #606060;
+  border-radius: 100px;
+  background-color: #606060;
+  color: #f6f6f6;
+}
+.btnthree {
+  width: 196px;
+  height: 32px;
+  margin-right: 16px;
+  font-weight: var(--header-mainweight);
+  font-size: 16px;
+  border: 5px solid #606060;
+  border-radius: 100px;
+  background-color: #606060;
+  color: #f6f6f6;
+}
+
+.parentcard .card1 {
+  width: 260px;
+  height: 316px;
+  margin: 0px 40px 240px 140px;
+}
+.parentcard .card2 {
+  width: 260px;
+  height: 316px;
+  margin: -555px 40px 240px 450px;
+}
+.parentcard .card3 {
+  width: 260px;
+  height: 316px;
+  margin: -555px 40px 240px 750px;
+}
+.parentcard .card4 {
+  width: 260px;
+  height: 316px;
+  margin: -555px 40px 240px 1050px;
+}
+.parentcard button {
+  width: 260px;
+  height: 63px;
+  font-weight: var(--header-mainweight);
+  font-size: 20px;
+  border: 5px solid #fcaf17;
+  border-radius: 8px;
+  background-color: #fcaf17;
+  margin: -60px 590px 112px 590px;
+  color: #101010;
+}
+.secondbox h2{
+   font-weight: 800;
+   font-size: 48px;
+   margin: 0px 600px 40px 140px  ;
+}
+
+.SBcard1{
+    width: 860px;
+    height: 520px;
+    
+}
+.SBcard1 img{
+     width: 840px;
+     height: 332px;
+     margin: 0px 0px 20px 140px;
+
+}
+.SBh4{
+    width: 540px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0px 0px 0px 140px;
+
+}
+.SBp{
+     width: 289px;
+     height: 24px;
+     font-weight: 300;
+     font-size: 14px;
+     color: #797979 ;
+     margin: 0px 0px 20px 140px;
+
+}
+.SBcard2{
+    width: 260px;
+    height: 224px;
+   margin: -515px 0px 0px 1040px;
+   box-shadow: 2px 2px 5px 5px #020202;
+
+}
+.SBcard2 img{
+   width: 260px;
+   height: 142px;
+}
+.SBcard2 h4{
+    width: 191px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 13px;
+    margin: -10px 57px 0px 12px ;
+}
+.SBcard2 p{
+    width: 217px;
+    height: 18px;
+    font-weight: 300;
+    font-size: 11px;
+    margin: 4px 31px 12px 12px  ;
+    color: #797979;
+}
+.SBcard3 {
+    width: 260px;
+    height: 224px;
+   margin: 10px 0px 0px 1040px;
+}
+.SBcard3 img{
+    width: 260px;
+   height: 142px;
+   
+}
+.SBcard3 h4{
+    width: 191px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 13px;
+    margin: -20px 57px 0px 12px ;
+}
+.SBcard3 p{
+    width: 217px;
+    height: 18px;
+    font-weight: 300;
+    font-size: 11px;
+    margin: 20px 31px 12px 12px  ;
+    color: #797979;
+}
+.thirdbox{
+    width: 1160px;
+    height: 535px;
+    margin: 80px 140px 80px 140px;
+    border-radius: 16px;
+    background: linear-gradient( 200deg,#f7e561, rgb(238, 109, 103));
+    color: #020202;
+}
+.TBcard1 img{
+    width: 137px;
+    height: 126px;
+    margin: 77px 0px 32px 76px ;
+}
+.TBcard1 h2{
+    width: 186px;
+    height: 123px;
+    font-weight: 800;
+    font-size: 41px;
+    margin: -150px 0px 32px 250px;
+}
+.TBcard1 p{
+    width: 326px;
+    height: 96px ;
+    font-weight: 500;
+    font-size: 32px;
+    margin: 32px 0px 0px 76px;
+}
+.TBcard1 button{
+    width: 260px;
+    height: 63px;
+    font-weight: 800 ;
+    font-size: 20px;
+    border: 4px solid #FCAF17;
+    border-radius: 8px;
+    background-color:#FCAF17 ;
+    align-items: center;
+    margin: 76px 0px 76px 76px ;
+}
+.TBimg{
+    width: 660px;
+    height: 471px;
+    margin: -520px 0px 32px 500px ;
+}
+.footer-container{
+    width: 1440px;
+    height: 238px;
+    margin-top: 80px;
+}
+.aboutus img{
+    width: 56px;
+    height: 55px;
+    margin: 91px 29px 91px 140px  ;
+
+}
+.aboutus ul {
+    font-weight: 500;
+    font-size: 16px;
+    list-style: none;
+    display: flex;
+    color: #B1B1B1;
+    margin: -140px 0px 0px 250px;
+}
+li{
+    margin-right: 24px;
+}
+.aboutus p{
+    width: 270px;
+    height: 20px;
+    font-weight: 300;
+    font-size: 13px;
+    color: #B1B1B1;
+    margin: 30px 0px 0px 250px;
+}
+.contacts {
+    margin: -55px 2px 0px 1000px;
+}
+.contacts img{
+    margin-right: 30px ;
+}
